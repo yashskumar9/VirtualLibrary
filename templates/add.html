@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title %}AddBook{% endblock %}
+{% block content %}
+    <h1 class="display-4 text-center mb-4">Add Your Book</h1>
+
+    <form action="" method="POST" class="p-4 rounded">
+        <div class="mb-3 d-flex align-items-center">
+            <label for="title" class="form-label me-3 text-nowrap" style="min-width: 150px; white-space: nowrap;">Book Name</label>
+            <input type="text" class="form-control" id="title" name="title" placeholder="Book name" required>
+        </div>
+
+        <div class="mb-3 d-flex align-items-center">
+            <label for="author" class="form-label me-3 text-nowrap" style="min-width: 150px; white-space: nowrap;">Book Author</label>
+            <input type="text" class="form-control" id="author" name="author" placeholder="Author's name" required>
+        </div>
+
+        <div class="mb-3 d-flex align-items-center">
+            <label for="rating" class="form-label me-3 text-nowrap" style="min-width: 150px; white-space: nowrap;">Book Rating</label>
+            <input type="number" class="form-control" id="rating" name="rating" placeholder="Rating out of 10" min="0" max="10" step="0.01" required>
+        </div>
+
+        <button type="submit" class="btn btn-dark btn-lg">Add Book</button>
+    </form>
+{% endblock %}

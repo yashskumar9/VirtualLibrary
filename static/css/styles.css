@@ -1,0 +1,60 @@
+html, body {
+    background-color: #6042a1;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.fs-4 {
+  color: #6042a1;
+  font-family: "Lobster", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "MORF" 0;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #6042a1;
+    text-align: center
+}
+
+#footer-text{
+    color: #6042a1;
+}
+
+.text-purple{
+    color: #6042a1;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-weight: 200;
+}
+
+.display-4 {
+  font-family: "Lobster", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #6042a1;
+  margin: 5px 0px 0px 0px;
+}
+
+.form-label{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.list-group-item {
+    list-style-type: disc; /* Bullet points */
+    list-style-position: inside; /* Inside the content */
+}
